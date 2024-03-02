@@ -3,7 +3,7 @@ provider "aws" {
     access_key = "AKIAQERBLOJ5OGQIVLGO"
     secret_key = "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"  
 }
-resource "aws_instance" "myautoec2" {
+resource "aws_instance" "myautoec-tf-jnkns" {
     ami = "ami-0c7217cdde317cfec"
     instance_type = "t2.micro"
 }
